@@ -1,7 +1,13 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts",
     "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "livekit-server-sdk": "^2.9.6",
+    "tsx": "^4.19.2"
   }
 }
